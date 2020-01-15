@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true
+  },
+  "extends": ["plugin:react/recommended", "eslint:recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    "no-console": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
+  }
+}

@@ -1,7 +1,14 @@
 {
   "name": "medical-pharmacy",
-  "version": "0.1.0",
+  "description": "Pharmacy management tool built with React and Node.js",
+  "license": "MIT",
+  "author": "Teneocto Technologies Co., Ltd.",
   "private": true,
+  "version": "0.0.1",
+  "repository": "github:CREWZENT/medical-pharmacy",
+  "engines": {
+    "node": ">=10"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,5 +18,10 @@
     "next": "9.1.7",
     "react": "16.12.0",
     "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
   }
 }
